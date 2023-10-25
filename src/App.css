@@ -6,10 +6,32 @@
   height: 40vmin;
   pointer-events: none;
 }
+.App-logo2 {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-logo3 {
+  height: 40vmin;
+  pointer-events: none;
+}
+.Logos {
+  display: flex;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo2 {
+    animation: App-logo-spin2 infinite 20s linear;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo3 {
+    animation: App-logo-spin3 infinite 20s linear;
   }
 }
 
@@ -28,6 +50,23 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(8280deg);
+  }
+}
+
+@keyframes App-logo-spin2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-8280deg);
+  }
+}
+@keyframes App-logo-spin3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(7200deg);
   }
 }
